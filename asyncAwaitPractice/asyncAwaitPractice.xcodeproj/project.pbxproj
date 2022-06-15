@@ -11,6 +11,7 @@
 		DF5254DD285995A000AA7A99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5254DC285995A000AA7A99 /* ContentView.swift */; };
 		DF5254DF285995A100AA7A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5254DE285995A100AA7A99 /* Assets.xcassets */; };
 		DF5254E2285995A100AA7A99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5254E1285995A100AA7A99 /* Preview Assets.xcassets */; };
+		DF5254E9285A4AC700AA7A99 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5254E8285A4AC700AA7A99 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF5254DC285995A000AA7A99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF5254DE285995A100AA7A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF5254E1285995A100AA7A99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF5254E8285A4AC700AA7A99 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DF5254DA285995A000AA7A99 /* asyncAwaitPracticeApp.swift */,
 				DF5254DC285995A000AA7A99 /* ContentView.swift */,
+				DF5254E8285A4AC700AA7A99 /* ViewModel.swift */,
 				DF5254DE285995A100AA7A99 /* Assets.xcassets */,
 				DF5254E0285995A100AA7A99 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5254DD285995A000AA7A99 /* ContentView.swift in Sources */,
+				DF5254E9285A4AC700AA7A99 /* ViewModel.swift in Sources */,
 				DF5254DB285995A000AA7A99 /* asyncAwaitPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
